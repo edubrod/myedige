@@ -1,0 +1,112 @@
+body{
+    background-color: #dcdcdc;
+    font-family: 'Quicksand', sans-serif;
+
+}
+.box-intro{
+    background-color: #23af6c;
+}
+.text-1{
+    text-align: justify;
+    font-size: 16pt;
+    color: #ffffff;
+    margin-left: 10%;
+    padding: 10px;
+}
+.box-button{
+    text-align: center;
+    margin-top: 30px;
+}
+.button-sobre{
+    border: 2px solid #dcdcdc;
+    color: #ffffff;
+    background-color: #23af6c;
+    border-radius: 10px;
+    width: 190px;
+    padding: 0;
+    text-align: center;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+.text-2{
+    font-size: 8pt;
+    font-weight: bold;
+    padding: 5px;
+}
+.box-edgers{
+    text-align: center;
+    margin-top: 80px;
+}
+.src-edigers{
+    width: 140px;
+    height: 140px;
+}
+.text-box-mkt{
+    margin-top: 40px;
+    font-size: 16pt;
+    color: #005b2b;
+}
+.box-footer{
+    background-color: #005b2b;
+    margin-top: 50px;
+    padding: 2%;
+    position: absolute;
+    bottom: 0;
+}
+.img-footer{
+    width: 25%;
+}
+.text-footer{
+    color: #23af6c;
+    font-size: 16pt;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+}
+.box-img-footer{
+    text-align: center;
+    
+}
+.button-ediger{
+    background-color: #005b2b;
+    color: #ffffff !important;
+    border-radius: 10px;
+    width: 150px;
+    padding: 2px;
+    text-align: center;
+    margin-top: 7px;
+    margin-left: 10px;
+    font-size: 10pt;
+}
+.button-colecionador{
+    background-color: rgb(255, 162, 39);
+    color: #ffffff !important;
+    border-radius: 10px;
+    width: 170px;
+    padding: 2px;
+    text-align: center;
+    margin-top: 7px;
+    margin-left: 10px;
+    font-size: 10pt;
+}
+.button-destinatario{
+    background-color: #23af6c;
+    color: #ffffff !important;
+    border-radius: 10px;
+    width: 170px;
+    padding: 2px;
+    text-align: center;
+    margin-top: 7px;
+    margin-left: 10px;
+    font-size: 10pt;
+}
+
+@media screen and (max-width:800px) {
+	.box-footer{
+        position: relative;
+    }
+    .img-footer{
+        width: 100%;
+        margin-top: 25%;
+    }
+}

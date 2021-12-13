@@ -1,0 +1,93 @@
+body{
+    background-color: #DCDCDC;
+}
+.img-logo{
+    margin-left: 30px;
+}
+.button-menu{
+    margin-right: 50px;
+    padding-right: 20px;
+}
+.box-button{
+    margin-top: 100px;
+}
+.button-cadastro{
+    border: 2px solid #23af6c;
+    color: #23af6c !important;
+    border-radius: 10px;
+    width: 150px;
+    padding: 0;
+    text-align: center;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+.button-feedback{
+    border: 2px solid #23af6c;
+    background-color: #23af6c;
+    color: #ffffff !important;
+    border-radius: 10px;
+    width: 150px;
+    padding: 0;
+    text-align: center;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+.button-sobre{
+    border: 2px solid #23af6c;
+    color: #23af6c !important;
+    border-radius: 10px;
+    width: 150px;
+    padding: 0;
+    text-align: center;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+.button-icons{
+    margin-top: 60px;
+}
+.fa{
+    padding: 5px;
+    color: #005b2b;
+}
+.button-float{
+    height: 60px;
+    width: 60px;
+    position: fixed;
+    bottom: 1rem;
+    right: 2rem;
+    font-size: 30px;
+    color: black;
+    padding: 0 !important;
+}
+.img-suporte{
+    width: 100%;
+    margin-bottom: 30px;
+    background-color: #005b2b;
+    border-radius: 100%;
+}
+
+/*ESTILIZAÇÃO ANIMAÇÃO*/
+
+.t-intro{
+    font-size: 30pt;
+    margin-top: 12%;
+    font-family: 'Quicksand', sans-serif;
+    color: #23af6c;
+
+}
+.t-intro:after{
+    content: '|';
+    margin-left: 5px;
+    opacity: 1;
+    animation: pisca .7s infinite;
+}
+/* Animação aplicada ao content referente a classe *.t-intro* resultando num efeito de cursor piscando. */
+
+@keyframes pisca{
+    0%, 100%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+}
