@@ -14,8 +14,8 @@
     <link rel="stylesheet" href="./css/styles.css" class="css">
     <title>myEdige - Home</title>
 </head>
-<body>
 
+<body>
     <header>
         <nav class="navbar navbar-expand-lg  navbar-light">
             <div class="container-fluid">
@@ -30,15 +30,69 @@
                         <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
                             style="--bs-scroll-height: 100px;">
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="https://forms.gle/zokRHJPfbtMsgMji6">Solicitar apresentação</a>
+                                <a class="nav-link" href="#" data-bs-toggle="modal"
+                                    data-bs-target="#apresentacao">Solicitar apresentação</a>
+                            </li>
+                            <li class="nav-item"> <a class="nav-link" href="#" data-bs-toggle="modal"
+                                    data-bs-target="#cadastro">Pré-cadastro</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link button-cadastro" href="https://forms.gle/KGJiiK2P1vbvGgP88">Cadastre-se</a>
+                                <a class="nav-link button-enviar-edige" target="_blank"
+                                    href="https://forms.gle/LMiGemSYNsohW5eG8">Enviar Edige</a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
+            <!-- Modal PRÉ-CADASTRO-->
+            <div class="modal fade" id="cadastro" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <iframe
+                            src="https://docs.google.com/forms/d/e/1FAIpQLSeKJQbIFi8bk6DrdzN7I2Yh28o4Jv8IpVJpyiQuA2WwiyRnLQ/viewform?embedded=true"
+                            width="480" height="840" frameborder="0" marginheight="0" marginwidth="0">A
+                            carregar…</iframe>
+                    </div>
+                </div>
+            </div>
+            <!-- FIM DO MODAL-->
+
+            <!-- Modal SOLICITAR APRESENTAÇÃO-->
+            <div class="modal fade" id="apresentacao" tabindex="-1" aria-labelledby="exampleModalLabel1"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel1">Solicite uma apresentação.</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <form action="POST" id="">
+                            <div class="modal-body">
+                                <div class="mb-3">
+                                    <label for="name-input2" class="form-label">Nome</label>
+                                    <input type="text" class="form-control" id="name-input2" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="fone-input2" class="form-label">WhatsApp</label>
+                                    <input type="fone" step="any" class="form-control" id="fone-input2" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="mail-input2" class="form-label">E-mail</label>
+                                    <input type="mail" step="any" class="form-control" id="mail-input2" required>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="mail" class="btn  button-cancel"
+                                        data-bs-dismiss="modal">Cancelar</button>
+                                    <button type="subimit" class="btn btn-success button-default">Enviar</button>
+                                </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- FIM DO MODAL-->
         </nav>
     </header>
     <main>
@@ -53,9 +107,26 @@
             <div class="row">
                 <div class="col d-flex justify-content-center">
                     <a href="sobre.html"><button class="btn button-sobre" type="button">Sobre a Edige</button></a>
-                    <a href="https://forms.gle/TDdDGoWCtqgBoGhm9"><button class="btn button-feedback" type="button">Dar feedback</button></a>
-                    
+                    <a><button class="btn button-feedback" data-bs-toggle="modal" data-bs-target="#feedback"
+                            type="button">Dar feedback</button></a>
                 </div>
+                <!-- Modal FEEDBACK-->
+                <div class="modal fade" id="feedback" tabindex="-1" aria-labelledby="exampleModalLabel1"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <iframe
+                                src="https://docs.google.com/forms/d/e/1FAIpQLSfKrHn2STiBIdvBUUR8jO8EW2k382xQXGgm2kVk4s-uP_3Waw/viewform?embedded=true"
+                                width="480" height="1000" frameborder="0" marginheight="0" marginwidth="0">A
+                                carregar…</iframe>
+                        </div>
+                    </div>
+                </div>
+                <!-- FIM DO MODAL-->
             </div>
         </div>
         <div class="container">
@@ -71,45 +142,46 @@
         </div>
         </div>
 
-        <button class="btn button-float" data-bs-toggle="modal" data-bs-target="#transaction-modal"><img src="./assets/images/EdigeIconeSuporteBranco.png" class="img-suporte">    </button>
-    </div>
-    <!-- Modal -->
-    <div class="modal fade" id="transaction-modal" tabindex="-1" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Envie uma mensagem para Edige</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <button class="btn button-float" data-bs-toggle="modal" data-bs-target="#transaction-modal"><img
+                src="./assets/images/EdigeIconeSuporteBranco.png" class="img-suporte"> </button>
+        </div>
+
+        <!-- Modal SUPORTE-->
+        <div class="modal fade" id="transaction-modal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Entre em contato com nossos mensageiros:</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <form action="POST" id="transaction-form">
+                        <div class="modal-body">
+                            <div class="mb-3">
+                                <label for="name-input" class="form-label">Nome</label>
+                                <input type="text" class="form-control" id="name-input" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="fone-input" class="form-label">Telefone</label>
+                                <input type="fone" step="any" class="form-control" id="fone-input" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="mail-input" class="form-label">E-mail</label>
+                                <input type="mail" step="any" class="form-control" id="mail-input" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="msg-input" class="form-label">Mensagem</label>
+                                <input type="text" class="form-control" id="msg-input" required>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="mail" class="btn btn button-cancel"
+                                    data-bs-dismiss="modal">Cancelar</button>
+                                <button type="subimit" class="btn btn-success">Enviar</button>
+                            </div>
+                    </form>
                 </div>
-                <form action="POST" id="transaction-form">
-                    <div class="modal-body">
-                        <div class="mb-3">
-                            <label for="name-input" class="form-label">Nome</label>
-                            <input type="text" class="form-control" id="name-input" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="fone-input" class="form-label">Telefone</label>
-                            <input type="fone" step="any" class="form-control" id="fone-input" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="mail-input" class="form-label">E-mail</label>
-                            <input type="mail" step="any" class="form-control" id="mail-input" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="msg-input" class="form-label">Mensagem</label>
-                            <input type="text" class="form-control" id="msg-input" required>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="mail" class="btn btn-secondary button-cancel"
-                                data-bs-dismiss="modal">Cancelar</button>
-                            <button type="subimit" class="btn button-default">Enviar</button>
-                        </div>
-                </form>
             </div>
         </div>
-    </div>
-
     </main>
     <script src="https://use.fontawesome.com/fb325f604c.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
@@ -117,4 +189,5 @@
         crossorigin="anonymous"></script>
     <script src="./js/index.js"></script>
 </body>
+
 </html>

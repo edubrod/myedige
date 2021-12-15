@@ -11,9 +11,10 @@ body{
 .box-button{
     margin-top: 100px;
 }
-.button-cadastro{
+.button-enviar-edige{
     border: 2px solid #23af6c;
-    color: #23af6c !important;
+    color: #ffffff !important;
+    background-color: #23af6c;
     border-radius: 10px;
     width: 150px;
     padding: 0;
@@ -56,13 +57,11 @@ body{
     bottom: 1rem;
     right: 2rem;
     font-size: 30px;
-    color: black;
     padding: 0 !important;
 }
 .img-suporte{
     width: 100%;
     margin-bottom: 30px;
-    background-color: #005b2b;
     border-radius: 100%;
 }
 
