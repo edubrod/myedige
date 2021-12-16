@@ -3,13 +3,14 @@ body{
 }
 .img-logo{
     margin-left: 30px;
+    width: 70%;
 }
 .button-menu{
-    margin-right: 50px;
+    margin-right: 60px;
     padding-right: 20px;
 }
 .box-button{
-    margin-top: 100px;
+    margin-top: 55px !important;
 }
 .button-enviar-edige{
     border: 2px solid #23af6c;
@@ -44,32 +45,42 @@ body{
     margin-left: 10px;
 }
 .button-icons{
-    margin-top: 60px;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
-.fa{
-    padding: 5px;
-    color: #005b2b;
+.image-social{
+    margin-top: 20px;
+    width: 120%;
+    padding-left: 15px;
 }
 .button-float{
     height: 60px;
     width: 60px;
-    position: fixed;
+    position:right;
     bottom: 1rem;
     right: 2rem;
     font-size: 30px;
     padding: 0 !important;
+    position: fixed;
 }
 .img-suporte{
     width: 100%;
     margin-bottom: 30px;
     border-radius: 100%;
 }
+.image-summit{
+    text-align: center;
+    margin-top: 50px;
+}
+.src-summit{
+    width: 50%;
+}
 
 /*ESTILIZAÇÃO ANIMAÇÃO*/
 
 .t-intro{
     font-size: 30pt;
-    margin-top: 12%;
+    margin-top: 8%;
     font-family: 'Quicksand', sans-serif;
     color: #23af6c;
 
@@ -89,4 +100,64 @@ body{
     50%{
         opacity: 0;
     }
+}
+
+/* Pagina sobre */
+
+.box-intro{
+    background-color: #23af6c;
+}
+.text-1{
+    text-align: justify;
+    font-size: 16pt;
+    color: #ffffff;
+    margin-left: 10%;
+    padding: 10px;
+}
+.box-button2{
+    text-align: center;
+    margin-top: 30px;
+}
+.button-sobre2{
+    border: 2px solid #dcdcdc;
+    color: #ffffff;
+    background-color: #23af6c;
+    border-radius: 10px;
+    width: 190px;
+    padding: 0;
+    text-align: center;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+.text-2{
+    font-size: 8pt;
+    font-weight: bold;
+    padding: 5px;
+}
+.box-footer{
+    padding: 50px;
+
+}
+.img-footer{
+    width: 25%;
+    margin-right: 25%;
+}
+.text-footer{
+    color: #23af6c;
+    font-size: 16pt;
+    font-weight: bold;
+}
+.box-img-footer{
+    text-align: end;
+    margin-right: 10%;
+
+}
+.text-footer2{
+    color: #23af6c;
+    font-size: 12pt;
+    text-align: center;
+}
+.span-footer{
+    color: #005b2b;
+    font-weight: bold;
 }

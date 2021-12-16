@@ -19,7 +19,7 @@
     <header>
         <nav class="navbar navbar-expand-lg  navbar-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="https://www.myedige.com"><img src="./assets/images/edigeLogo.png"
+                <a class="navbar-brand" href="https://www.myedige.com"><img src="./assets/images/EdigeIconeBeta.png"
                         alt="Edige logo" class="img-fluid img-logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
                     aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,15 +30,13 @@
                         <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
                             style="--bs-scroll-height: 100px;">
                             <li class="nav-item">
-                                <a class="nav-link" href="#" data-bs-toggle="modal"
-                                    data-bs-target="#apresentacao">Solicitar apresentação</a>
+                                <a class="nav-link" href="solicitarApresentacao.html">Solicitar apresentação</a>
                             </li>
                             <li class="nav-item"> <a class="nav-link" href="#" data-bs-toggle="modal"
                                     data-bs-target="#cadastro">Pré-cadastro</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link button-enviar-edige" target="_blank"
-                                    href="https://forms.gle/LMiGemSYNsohW5eG8">Enviar Edige</a>
+                                <a class="nav-link button-enviar-edige" href="enviarEdige.html">Enviar Edige</a>
                             </li>
                         </ul>
                     </div>
@@ -51,44 +49,11 @@
                         <div class="modal-header">
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-                        <iframe
-                            src="https://docs.google.com/forms/d/e/1FAIpQLSeKJQbIFi8bk6DrdzN7I2Yh28o4Jv8IpVJpyiQuA2WwiyRnLQ/viewform?embedded=true"
-                            width="480" height="840" frameborder="0" marginheight="0" marginwidth="0">A
-                            carregar…</iframe>
-                    </div>
-                </div>
-            </div>
-            <!-- FIM DO MODAL-->
-
-            <!-- Modal SOLICITAR APRESENTAÇÃO-->
-            <div class="modal fade" id="apresentacao" tabindex="-1" aria-labelledby="exampleModalLabel1"
-                aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel1">Solicite uma apresentação.</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <form action="POST" id="">
-                            <div class="modal-body">
-                                <div class="mb-3">
-                                    <label for="name-input2" class="form-label">Nome</label>
-                                    <input type="text" class="form-control" id="name-input2" required>
-                                </div>
-                                <div class="mb-3">
-                                    <label for="fone-input2" class="form-label">WhatsApp</label>
-                                    <input type="fone" step="any" class="form-control" id="fone-input2" required>
-                                </div>
-                                <div class="mb-3">
-                                    <label for="mail-input2" class="form-label">E-mail</label>
-                                    <input type="mail" step="any" class="form-control" id="mail-input2" required>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="mail" class="btn  button-cancel"
-                                        data-bs-dismiss="modal">Cancelar</button>
-                                    <button type="subimit" class="btn btn-success button-default">Enviar</button>
-                                </div>
-                        </form>
+                        <iframe width="640px" height="480px"
+                            src="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAATz039ZUQjQwNVhXSTQ1NzJWNFJBWVpSTUpDSE9BUC4u"
+                            frameborder="0" marginwidth="0" marginheight="0"
+                            style="border: none; width:500px; height:1200px" allowfullscreen webkitallowfullscreen
+                            mozallowfullscreen msallowfullscreen> </iframe>
                     </div>
                 </div>
             </div>
@@ -97,7 +62,7 @@
     </header>
     <main>
         <div class="container-fluid">
-            <div class="row ">
+            <div class="row">
                 <div class="col d-flex justify-content-center flex-colum">
                     <h1 class="t-intro">Converse com quem você quiser de forma simples e sem barreiras.</h1>
                 </div>
@@ -129,23 +94,75 @@
                 <!-- FIM DO MODAL-->
             </div>
         </div>
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-12  justify-content-center d-flex button-icons">
-                    <i class="fa fa-facebook-official fs-2" aria-hidden="true"></i>
-                    <i class="fa fa-instagram fs-2" aria-hidden="true"></i>
-                    <i class="fa fa-linkedin fs-2" aria-hidden="true"></i>
-                    <i class="fa fa-twitter fs-2" aria-hidden="true"></i>
-                    <i class="fa fa-whatsapp fs-2" aria-hidden="true"></i>
+                <div class="col  justify-content-center d-flex button-icons">
+                    <a href="https://facebook.com" target="_blank" class="href"><img
+                            src="./assets/images/EdigeIconeFace.png" alt="" class="image-social"></a>
+                    <a href="https://instagram.com" target="_blank" class="href"><img
+                            src="./assets/images/EdigeIconeInsta.png" alt="" class="image-social"></a>
+                    <a href="https://linkedin.com" target="_blank" class="href"><img
+                            src="./assets/images/EdigeIconeLinkedin.png" alt="" class="image-social"></a>
+                    <a href="https://twitter.com" target="_blank" class="href"><img
+                            src="./assets/images/EdigeIconeTwiter.png" alt="" class="image-social"></a>
+                    <a href="https://www.gramadosummit.com/" target="_blank" class="href"><img
+                            src="./assets/images/EdigeIconeGramadoSummit.png" alt="" class="image-social"></a>
                 </div>
             </div>
         </div>
         </div>
-
-        <button class="btn button-float" data-bs-toggle="modal" data-bs-target="#transaction-modal"><img
-                src="./assets/images/EdigeIconeSuporteBranco.png" class="img-suporte"> </button>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="image-summit">
+                        <img src="./assets/images/EdigeGramadoSummit.png" alt="" class="src-summit">
+                    </div>
+                </div>
+            </div>
         </div>
-
+        <a href="https://wa.me/5553981171688?text=Ediqu%C3%AA%3F+Estou+com+d%C3%BAvidas." target="_blank"><button class="btn button-float"><img
+                src="./assets/images/EdigeIconeSuporteBranco.png" class="img-suporte"> </button></a>
+        </div>
+        <div class="container-fluid box-intro">
+            <div class="row p-4">
+                <div class="col text-1">
+                    <div class="">
+                        <p>Entenda como a Edige pode transformar<br>
+                            e mudar a maneira como você<br>
+                            se comunica e tira suas dúvidas.
+                        </p>
+                    </div>
+                </div>
+                <div class="col box-button2">
+                    <div class="">
+                        <a href="#"><button class="button-sobre2" data-bs-toggle="modal"
+                                data-bs-target="#apresentacao">Solicitar apresentação</button></a>
+                        <p class="text-2">Fazer o pré-cadastro</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid box-footer">
+            <div class="row d-flex">
+                <div class="col box-img-footer">
+                    <a href="index.html" class="hef"><img src="./assets/images/EdigeIconeBeta.png" alt=""
+                            class="image-fluid img-footer"></a>
+                </div>
+                <div class="col">
+                    <p class="text-footer">Aproximando pessoas e conhecimento.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p class="text-footer2">Nossos mensageiros estão trabalhando diariamente para entregar a melhor
+                        experiência em comunicação para pessoas<br>
+                        assim como você, que se preocupa com os minimos detalhes. Gostaria de ajudar nesses processos?
+                        <span class="span-footer">Manda seu feedback.</span>
+                </div>
+            </div>
+        </div>
         <!-- Modal SUPORTE-->
         <div class="modal fade" id="transaction-modal" tabindex="-1" aria-labelledby="exampleModalLabel"
             aria-hidden="true">
@@ -155,28 +172,29 @@
                         <h5 class="modal-title" id="exampleModalLabel">Entre em contato com nossos mensageiros:</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <form action="POST" id="transaction-form">
+                    <form action="https://formspree.io/f/xgedenja" method="POST" id="transaction-form">
                         <div class="modal-body">
                             <div class="mb-3">
                                 <label for="name-input" class="form-label">Nome</label>
-                                <input type="text" class="form-control" id="name-input" required>
+                                <input type="text" name="name" class="form-control" id="name-input" required>
                             </div>
                             <div class="mb-3">
                                 <label for="fone-input" class="form-label">Telefone</label>
-                                <input type="fone" step="any" class="form-control" id="fone-input" required>
+                                <input type="fone" name="fone" step="any" class="form-control" id="fone-input" required>
                             </div>
                             <div class="mb-3">
                                 <label for="mail-input" class="form-label">E-mail</label>
-                                <input type="mail" step="any" class="form-control" id="mail-input" required>
+                                <input type="email" name="_replyto" step="any" class="form-control" id="mail-input"
+                                    required>
                             </div>
                             <div class="mb-3">
                                 <label for="msg-input" class="form-label">Mensagem</label>
-                                <input type="text" class="form-control" id="msg-input" required>
+                                <input type="text" name="message" class="form-control" id="msg-input" required>
                             </div>
                             <div class="modal-footer">
                                 <button type="mail" class="btn btn button-cancel"
                                     data-bs-dismiss="modal">Cancelar</button>
-                                <button type="subimit" class="btn btn-success">Enviar</button>
+                                <button type="submit" class="btn btn-success">Enviar</button>
                             </div>
                     </form>
                 </div>
