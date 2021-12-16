@@ -36,12 +36,109 @@
                                     data-bs-target="#cadastro">Pré-cadastro</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link button-enviar-edige" href="enviarEdige.html">Enviar Edige</a>
+                                <a class="nav-link button-enviar-edige" data-bs-toggle="modal" data-bs-target="#enviarEdige" href="#">Enviar Edige</a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
+            <!-- Modal Enviar Edige-->
+    <div class="modal fade" id="enviarEdige" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="container-fluid box-aviso">
+                    <style>
+                        .modal-header {
+                            background-color: #13375b;
+                            border: none;
+                        }
+
+                        .box-aviso {
+                            text-align: center;
+                            background-color: #13375b;
+                            color: #ffffff;
+                            padding: 50px;
+                            font-family: 'Quicksand', sans-serif;
+                        }
+
+                        .icone-suporte {
+                            width: 8%;
+                            margin-top: 20px;
+                            margin-bottom: 20px;
+                        }
+
+                        .box-saber-mais {
+                            margin-top: 40px;
+                            margin-bottom: 50px;
+                        }
+
+                        .buttom-saber-mais {
+                            width: 160px;
+                            font-size: 8pt;
+                            border-radius: 10px;
+                            border: 2px solid #ffffff;
+                            background-color: #13375b;
+                            color: #ffffff;
+                        }
+                        .img-suporte-aviso{
+                            margin-top: 10px;
+                            width: 20%;
+                        }
+
+                    </style>
+                    <div class="row">
+                        <div class="col">
+                            <div>
+                                <p>Em breve a primeira versão estará disponível<br>
+                                    e você poderá se comunicar com quem quiser!</p>
+                                <img src="./assets/images/EdigeIconeBetaBranco.png" alt="" class="img-logo-aviso">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col box-saber-mais">
+                            <a href=""><button class="buttom-saber-mais">Saber mais</button></a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div>
+                                <p>Enquanto isso, acompanhe nossas redes sociais<br>
+                                    e fique por dentro de todas as novidades!</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col  justify-content-center d-flex button-icons">
+                                <a href="https://facebook.com" target="_blank" class="href"><img
+                                        src="./assets/images/EdigeIconeFaceBranco.png" alt="" class="image-social-aviso"></a>
+                                <a href="https://instagram.com" target="_blank" class="href"><img
+                                        src="./assets/images/EdigeIconeInstaBranco.png" alt="" class="image-social-aviso"></a>
+                                <a href="https://linkedin.com" target="_blank" class="href"><img
+                                        src="./assets/images/EdigeIconeLinkedinBranco.png" alt=""
+                                        class="image-social-aviso"></a>
+                                <a href="https://twitter.com" target="_blank" class="href"><img
+                                        src="./assets/images/EdigeIconeTwiterBranco.png" alt=""
+                                        class="image-social-aviso"></a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div>
+                                    <a href="https://wa.me/5553981171688?text=Ediqu%C3%AA%3F+Estou+com+d%C3%BAvidas." target="_blank"><img src="./assets/images/EdigeIconeSuporteBranco.png" class="img-suporte-aviso"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- FIM Modal Enviar Edige-->
             <!-- Modal PRÉ-CADASTRO-->
             <div class="modal fade" id="cadastro" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
                 <div class="modal-dialog">
@@ -121,7 +218,7 @@
             </div>
         </div>
         <a href="https://wa.me/5553981171688?text=Ediqu%C3%AA%3F+Estou+com+d%C3%BAvidas." target="_blank"><button class="btn button-float"><img
-                src="./assets/images/EdigeIconeSuporteBranco.png" class="img-suporte"> </button></a>
+                src="./assets/images/EdigeIconeSuporte.png" class="img-suporte"> </button></a>
         </div>
         <div class="container-fluid box-intro">
             <div class="row p-4">
@@ -160,43 +257,6 @@
                         experiência em comunicação para pessoas<br>
                         assim como você, que se preocupa com os minimos detalhes. Gostaria de ajudar nesses processos?
                         <span class="span-footer">Manda seu feedback.</span>
-                </div>
-            </div>
-        </div>
-        <!-- Modal SUPORTE-->
-        <div class="modal fade" id="transaction-modal" tabindex="-1" aria-labelledby="exampleModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Entre em contato com nossos mensageiros:</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <form action="https://formspree.io/f/xgedenja" method="POST" id="transaction-form">
-                        <div class="modal-body">
-                            <div class="mb-3">
-                                <label for="name-input" class="form-label">Nome</label>
-                                <input type="text" name="name" class="form-control" id="name-input" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="fone-input" class="form-label">Telefone</label>
-                                <input type="fone" name="fone" step="any" class="form-control" id="fone-input" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="mail-input" class="form-label">E-mail</label>
-                                <input type="email" name="_replyto" step="any" class="form-control" id="mail-input"
-                                    required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="msg-input" class="form-label">Mensagem</label>
-                                <input type="text" name="message" class="form-control" id="msg-input" required>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="mail" class="btn btn button-cancel"
-                                    data-bs-dismiss="modal">Cancelar</button>
-                                <button type="submit" class="btn btn-success">Enviar</button>
-                            </div>
-                    </form>
                 </div>
             </div>
         </div>
