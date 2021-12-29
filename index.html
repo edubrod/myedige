@@ -29,11 +29,8 @@
                     <div class="d-flex button-menu">
                         <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
                             style="--bs-scroll-height: 100px;">
-                            <li class="nav-item">
-                                <a class="nav-link" href="solicitarApresentacao.html">Solicitar apresentação</a>
-                            </li>
                             <li class="nav-item"> <a class="nav-link" href="#" data-bs-toggle="modal"
-                                    data-bs-target="#cadastro">Pré-cadastro</a>
+                                    data-bs-target="#feedback">Dar feedback</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link button-enviar-edige" data-bs-toggle="modal" data-bs-target="#enviarEdige" href="#">Enviar Edige</a>
@@ -72,8 +69,13 @@
                         }
 
                         .box-saber-mais {
-                            margin-top: 40px;
-                            margin-bottom: 50px;
+                            margin-top: 5px;
+                            margin-bottom: 20px;
+                        }
+
+                        .box-notificado {
+                            margin-top: 5px;
+                            margin-bottom: 5px;
                         }
 
                         .buttom-saber-mais {
@@ -83,25 +85,49 @@
                             border: 2px solid #ffffff;
                             background-color: #13375b;
                             color: #ffffff;
+                            margin-left: 25px;
                         }
+
+                        .buttom-notificado{
+                            width: 160px;
+                            font-size: 8pt;
+                            border-radius: 10px;
+                            border: 2px solid #ffffff;
+                            background-color: #ffffff;
+                            color: #13375b;
+                            font-weight: bold;
+                        }
+                        
                         .img-suporte-aviso{
                             margin-top: 10px;
                             width: 20%;
+                        }
+
+                        .img-logo-aviso{
+                            margin-bottom: 15px;
                         }
 
                     </style>
                     <div class="row">
                         <div class="col">
                             <div>
-                                <p>Em breve a primeira versão estará disponível<br>
-                                    e você poderá se comunicar com quem quiser!</p>
                                 <img src="./assets/images/EdigeIconeBetaBranco.png" alt="" class="img-logo-aviso">
+                                <p>Falto pouco! Em breve a primeira versão<br> 
+                                    estará disponível e você poderá se<br>
+                                 comunicar com quem quiser!</p>
+                                 <p>Seja notificado quando a primeira versão<br>
+                                estiver disponível.</p>
                             </div>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col box-saber-mais">
-                            <a href=""><button class="buttom-saber-mais">Saber mais</button></a>
+                        <div class="col box-notificado">
+                            <a href=""><button class="buttom-notificado">Quero ser notificado</button></a>
+                        </div>
+                        <div class="row">
+                            <div class="col box-saber-mais">
+                                <a href=""><button class="buttom-saber-mais">Saber mais</button></a>
+                            </div>
                         </div>
                     </div>
                     <div class="row">
@@ -113,15 +139,10 @@
                         </div>
                         <div class="row">
                             <div class="col  justify-content-center d-flex button-icons">
-                                <a href="https://facebook.com" target="_blank" class="href"><img
-                                        src="./assets/images/EdigeIconeFaceBranco.png" alt="" class="image-social-aviso"></a>
-                                <a href="https://instagram.com" target="_blank" class="href"><img
+                                <a href="https://www.instagram.com/myedige/" target="_blank" class="href"><img
                                         src="./assets/images/EdigeIconeInstaBranco.png" alt="" class="image-social-aviso"></a>
-                                <a href="https://linkedin.com" target="_blank" class="href"><img
+                                <a href="https://www.linkedin.com/company/edige/" target="_blank" class="href"><img
                                         src="./assets/images/EdigeIconeLinkedinBranco.png" alt=""
-                                        class="image-social-aviso"></a>
-                                <a href="https://twitter.com" target="_blank" class="href"><img
-                                        src="./assets/images/EdigeIconeTwiterBranco.png" alt=""
                                         class="image-social-aviso"></a>
                             </div>
                         </div>
@@ -139,8 +160,8 @@
     </div>
     
     <!-- FIM Modal Enviar Edige-->
-            <!-- Modal PRÉ-CADASTRO-->
-            <div class="modal fade" id="cadastro" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+            <!-- Modal DAR FEEDBACK-->
+            <div class="modal fade" id="feedback" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -168,40 +189,18 @@
         <div class="container-fluid box-button">
             <div class="row">
                 <div class="col d-flex justify-content-center">
-                    <a href="sobre.html"><button class="btn button-sobre" type="button">Sobre a Edige</button></a>
-                    <a><button class="btn button-feedback" data-bs-toggle="modal" data-bs-target="#feedback"
-                            type="button">Dar feedback</button></a>
+                    <a href="#"><button class="btn button-sobre" type="button">Participar das pesquisas</button></a>
+                    <a><button class="btn button-feedback" type="button">Saber mais</button></a>
                 </div>
-                <!-- Modal FEEDBACK-->
-                <div class="modal fade" id="feedback" tabindex="-1" aria-labelledby="exampleModalLabel1"
-                    aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
-                            </div>
-                            <iframe
-                                src="https://docs.google.com/forms/d/e/1FAIpQLSfKrHn2STiBIdvBUUR8jO8EW2k382xQXGgm2kVk4s-uP_3Waw/viewform?embedded=true"
-                                width="480" height="1000" frameborder="0" marginheight="0" marginwidth="0">A
-                                carregar…</iframe>
-                        </div>
-                    </div>
-                </div>
-                <!-- FIM DO MODAL-->
             </div>
         </div>
         <div class="container-fluid">
             <div class="row">
                 <div class="col  justify-content-center d-flex button-icons">
-                    <a href="https://facebook.com" target="_blank" class="href"><img
-                            src="./assets/images/EdigeIconeFace.png" alt="" class="image-social"></a>
-                    <a href="https://instagram.com" target="_blank" class="href"><img
+                    <a href="https://www.instagram.com/myedige/" target="_blank" class="href"><img
                             src="./assets/images/EdigeIconeInsta.png" alt="" class="image-social"></a>
-                    <a href="https://linkedin.com" target="_blank" class="href"><img
+                    <a href="https://www.linkedin.com/company/edige/" target="_blank" class="href"><img
                             src="./assets/images/EdigeIconeLinkedin.png" alt="" class="image-social"></a>
-                    <a href="https://twitter.com" target="_blank" class="href"><img
-                            src="./assets/images/EdigeIconeTwiter.png" alt="" class="image-social"></a>
                     <a href="https://www.gramadosummit.com/" target="_blank" class="href"><img
                             src="./assets/images/EdigeIconeGramadoSummit.png" alt="" class="image-social"></a>
                 </div>
@@ -233,8 +232,7 @@
                 <div class="col box-button2">
                     <div class="">
                         <a href="#"><button class="button-sobre2" data-bs-toggle="modal"
-                                data-bs-target="#apresentacao">Solicitar apresentação</button></a>
-                        <p class="text-2">Fazer o pré-cadastro</p>
+                                data-bs-target="#apresentacao">Saber mais</button></a>
                     </div>
                 </div>
             </div>
