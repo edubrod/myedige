@@ -1,0 +1,30 @@
+.txt-termo {
+    text-align: justify;
+    margin: 30px 100px;
+}
+
+.img-footer-termo {
+    width: 8%;
+    padding: 5px;
+}
+
+.txt-footer {
+    font-size: 10pt;
+    color: #dcdcdc;
+}
+
+.box-footer-termo {
+    padding: 10px;
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    background-color: #13375b;
+}
+
+h3 {
+    text-align: center;
+}
+
+.box-img-termo{
+    text-align: center;
+}

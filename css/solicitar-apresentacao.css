@@ -1,0 +1,26 @@
+.img-footer-apresentacao {
+    width: 8%;
+    padding: 5px;
+}
+
+.txt-footer {
+    font-size: 10pt;
+    color: #23af6c;
+}
+
+.box-footer-apresentacao {
+    width: 100%;
+    bottom: 0;
+    padding: 5px;
+    background-color: #005b2b;
+}
+
+.box-img-apresentacao {
+    text-align: center;
+}
+
+.box-forms {
+    margin-top: 30px;
+    margin-bottom: 5%;
+    position: relative;
+}

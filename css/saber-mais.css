@@ -1,0 +1,139 @@
+body {
+    font-family: 'Quicksand', sans-serif !important;
+}
+
+.modal-header {
+    background-color: #13375b;
+    border: none;
+}
+
+.box-aviso {
+    text-align: center;
+    background-color: #13375b;
+    color: #ffffff;
+    padding: 50px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.icone-suporte {
+    width: 8%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.box-saber-mais {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.box-notificado {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.buttom-saber-mais {
+    width: 160px;
+    font-size: 8pt;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+    background-color: #13375b;
+    color: #ffffff;
+    margin-left: 25px;
+}
+
+.buttom-notificado {
+    width: 160px;
+    font-size: 8pt;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+    background-color: #ffffff;
+    color: #13375b;
+    font-weight: bold;
+}
+
+.img-suporte-aviso {
+    margin-top: 10px;
+    width: 20%;
+}
+
+.img-logo-aviso {
+    margin-bottom: 15px;
+}
+
+.paragrafo-1 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: #005b2b;
+}
+
+.video {
+    border-radius: 2%;
+}
+
+.h2-sobre-nos {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #005b2b;
+}
+
+.sobre-nos-bold {
+    text-align: center;
+    color: #005b2b;
+    font-weight: bold;
+}
+
+.sobre-nos {
+    text-align: center;
+
+}
+
+.fonte-span {
+    font-weight: bold;
+}
+
+.box-jornada {
+    background-color: #23af6c;
+}
+
+.text-jornada {
+    margin-left: 33%;
+    text-align: justify;
+    color: #ffffff;
+}
+
+.titulo-jornada {
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.button-participar{
+    border: 2px solid #23af6c;
+    color: #23af6c !important;
+    border-radius: 10px;
+    width: 200px;
+    padding: 0;
+    text-align: center;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+.button-feedback{
+    border: 2px solid #23af6c;
+    background-color: #23af6c;
+    color: #ffffff !important;
+    border-radius: 10px;
+    width: 230px;
+    padding: 0;
+    text-align: center;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+.box-button-saber-mais{
+    margin-top: 55px !important;
+}

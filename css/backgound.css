@@ -1,0 +1,99 @@
+body{
+    background-color: #DCDCDC;
+    font-family: 'Quicksand', sans-serif !important;
+}
+
+.navbar-button{
+    margin-right: 60px;
+    padding-right: 20px;
+}
+
+.button-feedback{
+    border: 2px solid #23af6c;
+    background-color: #23af6c;
+    color: #ffffff !important;
+    border-radius: 10px;
+    width: 230px;
+    padding: 0;
+    text-align: center;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+.button-enviar-edige{
+    border: 2px solid #23af6c;
+    color: #ffffff !important;
+    background-color: #23af6c;
+    border-radius: 10px;
+    width: 150px;
+    padding: 0;
+    text-align: center;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+.img-logo{
+    margin-left: 30px;
+    width: 70%;
+}
+
+.box-texto-central{
+    background-color: #23af6c;
+}
+
+.text-central{
+    text-align: justify;
+    font-size: 16pt;
+    color: #ffffff;
+    margin-left: 10%;
+    padding: 10px;
+}
+
+.box-button-saber-mais-central{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.button-saber-mais-central{
+    border: 2px solid #dcdcdc;
+    color: #ffffff;
+    background-color: #23af6c;
+    border-radius: 10px;
+    width: 190px;
+    padding: 0;
+    text-align: center;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+.box-footer{
+    padding: 50px;
+}
+
+.img-footer{
+    width: 25%;
+    margin-right: 25%;
+}
+
+.text-footer{
+    color: #23af6c;
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+.box-img-footer{
+    text-align: end;
+    margin-right: 10%;
+
+}
+
+.text-footer2{
+    color: #23af6c;
+    font-size: 12pt;
+    text-align: center;
+}
+
+.span-footer{
+    color: #005b2b;
+    font-weight: bold;
+}

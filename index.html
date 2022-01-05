@@ -11,8 +11,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/styles.css" class="css">
-    <title>myEdige - Home</title>
+    <link rel="stylesheet" href="./css/backgound.css" class="css">
+    <link rel="stylesheet" href="./css/index.css" class="css">
+    <link rel="stylesheet" href="./css/popup-enviar-edige.css" class="css">
+    <title>myEdige</title>
 </head>
 
 <body>
@@ -33,7 +35,7 @@
                                     data-bs-target="#feedback">Dar feedback</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link button-enviar-edige" data-bs-toggle="modal" data-bs-target="#enviarEdige" href="#">Enviar Edige</a>
+                                <a class="nav-link button-enviar-edige" data-bs-toggle="modal" data-bs-target="#enviarEdige" href="#">Mandar Edige</a>
                             </li>
                         </ul>
                     </div>
@@ -48,66 +50,6 @@
                 </div>
 
                 <div class="container-fluid box-aviso">
-                    <style>
-                        .modal-header {
-                            background-color: #13375b;
-                            border: none;
-                        }
-
-                        .box-aviso {
-                            text-align: center;
-                            background-color: #13375b;
-                            color: #ffffff;
-                            padding: 50px;
-                            font-family: 'Quicksand', sans-serif;
-                        }
-
-                        .icone-suporte {
-                            width: 8%;
-                            margin-top: 20px;
-                            margin-bottom: 20px;
-                        }
-
-                        .box-saber-mais {
-                            margin-top: 5px;
-                            margin-bottom: 20px;
-                        }
-
-                        .box-notificado {
-                            margin-top: 5px;
-                            margin-bottom: 5px;
-                        }
-
-                        .buttom-saber-mais {
-                            width: 160px;
-                            font-size: 8pt;
-                            border-radius: 10px;
-                            border: 2px solid #ffffff;
-                            background-color: #13375b;
-                            color: #ffffff;
-                            margin-left: 25px;
-                        }
-
-                        .buttom-notificado{
-                            width: 160px;
-                            font-size: 8pt;
-                            border-radius: 10px;
-                            border: 2px solid #ffffff;
-                            background-color: #ffffff;
-                            color: #13375b;
-                            font-weight: bold;
-                        }
-                        
-                        .img-suporte-aviso{
-                            margin-top: 10px;
-                            width: 20%;
-                        }
-
-                        .img-logo-aviso{
-                            margin-bottom: 15px;
-                        }
-
-                    </style>
                     <div class="row">
                         <div class="col">
                             <div>
@@ -126,7 +68,7 @@
                         </div>
                         <div class="row">
                             <div class="col box-saber-mais">
-                                <a href=""><button class="buttom-saber-mais">Saber mais</button></a>
+                                <a href="saber-mais.html"><button class="buttom-saber-mais">Saber mais</button></a>
                             </div>
                         </div>
                     </div>
@@ -168,7 +110,7 @@
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <iframe width="640px" height="480px"
-                            src="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAATz039ZUQjQwNVhXSTQ1NzJWNFJBWVpSTUpDSE9BUC4u"
+                            src="https://docs.google.com/forms/d/e/1FAIpQLSfKrHn2STiBIdvBUUR8jO8EW2k382xQXGgm2kVk4s-uP_3Waw/viewform?embedded=true"
                             frameborder="0" marginwidth="0" marginheight="0"
                             style="border: none; width:500px; height:1200px" allowfullscreen webkitallowfullscreen
                             mozallowfullscreen msallowfullscreen> </iframe>
@@ -189,8 +131,8 @@
         <div class="container-fluid box-button">
             <div class="row">
                 <div class="col d-flex justify-content-center">
-                    <a href="#"><button class="btn button-sobre" type="button">Participar das pesquisas</button></a>
-                    <a><button class="btn button-feedback" type="button">Saber mais</button></a>
+                    <a href="pesquisa.html"><button class="btn button-sobre" type="button">Participar das pesquisas</button></a>
+                    <a href="saber-mais.html"><button class="btn button-feedback" type="button">Saber mais</button></a>
                 </div>
             </div>
         </div>
@@ -219,20 +161,19 @@
         <a href="https://wa.me/5553981171688?text=Ediqu%C3%AA%3F+Estou+com+d%C3%BAvidas." target="_blank"><button class="btn button-float"><img
                 src="./assets/images/EdigeIconeSuporte.png" class="img-suporte"> </button></a>
         </div>
-        <div class="container-fluid box-intro">
+        <div class="container-fluid box-texto-central">
             <div class="row p-4">
-                <div class="col text-1">
-                    <div class="">
+                <div class="col text-central">
+                    <div>
                         <p>Entenda como a Edige pode transformar<br>
                             e mudar a maneira como você<br>
                             se comunica e tira suas dúvidas.
                         </p>
                     </div>
                 </div>
-                <div class="col box-button2">
-                    <div class="">
-                        <a href="#"><button class="button-sobre2" data-bs-toggle="modal"
-                                data-bs-target="#apresentacao">Saber mais</button></a>
+                <div class="col box-button-saber-mais-central">
+                    <div>
+                        <a href="saber-mais.html"><button class="button-saber-mais-central">Saber mais</button></a>
                     </div>
                 </div>
             </div>

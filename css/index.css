@@ -1,0 +1,74 @@
+/*ESTILIZAÇÃO ANIMAÇÃO DA INDEX*/
+
+.t-intro{
+    font-size: 30pt;
+    margin-top: 8%;
+    margin-bottom: 50px;
+    font-family: 'Quicksand', sans-serif;
+    color: #23af6c;
+
+}
+.t-intro:after{
+    content: '|';
+    margin-left: 5px;
+    opacity: 1;
+    animation: pisca .7s infinite;
+}
+
+/* EFEITO CURSOR PISCANDO */
+
+@keyframes pisca{
+    0%, 100%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+}
+
+.button-sobre{
+    border: 2px solid #23af6c;
+    color: #23af6c !important;
+    border-radius: 10px;
+    width: 200px;
+    padding: 0;
+    text-align: center;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+.button-icons{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.image-social{
+    margin-top: 50px;
+    width: 120%;
+    padding-left: 15px;
+}
+.button-float{
+    height: 60px;
+    width: 60px;
+    position:right;
+    bottom: 1rem;
+    right: 2rem;
+    font-size: 30px;
+    padding: 0 !important;
+    position: fixed;
+}
+.img-suporte{
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 100%;
+}
+.image-summit{
+    text-align: center;
+    margin-top: 50px;
+}
+.src-summit{
+    width: 50%;
+}
+
+
+
+/* Pagina sobre */
+
