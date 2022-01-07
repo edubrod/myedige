@@ -72,13 +72,12 @@ body{
 
 .img-footer{
     width: 25%;
-    margin-right: 25%;
+    margin-right: 5%;
 }
 
 .text-footer{
     color: #23af6c;
     font-size: 16pt;
-    font-weight: bold;
 }
 
 .box-img-footer{
@@ -97,3 +96,14 @@ body{
     color: #005b2b;
     font-weight: bold;
 }
+
+.manda-feedback-footer{
+    text-decoration: none;
+    color: #005b2b;
+    font-weight: bold;
+}
+
+.manda-feedback-footer:hover{
+    color: #23af6c;
+}
+

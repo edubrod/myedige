@@ -28,3 +28,13 @@ h3 {
 .box-img-termo{
     text-align: center;
 }
+
+.manda-feedback-footer{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.manda-feedback-footer:hover{
+    color: #dcdcdc;
+}
