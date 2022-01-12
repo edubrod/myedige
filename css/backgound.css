@@ -107,3 +107,12 @@ body{
     color: #23af6c;
 }
 
+@media screen and (max-width: 450px){
+    .img-footer{
+        width: 130%;
+        margin-right: 2%;
+        margin-top: 30%;
+    }
+
+    
+}

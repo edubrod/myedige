@@ -69,6 +69,33 @@
 }
 
 
+@media screen and (max-width: 450px) {
+    .button-sobre{
+        border: 2px solid #23af6c;
+        color: #23af6c !important;
+        border-radius: 10px;
+        width: 189px;
+        padding: 0;
+        text-align: center;
+        margin-top: 7px;
+        margin-left: 15px;
+    }
 
-/* Pagina sobre */
+    .button-feedback{
+        border: 2px solid #23af6c;
+        background-color: #23af6c;
+        color: #ffffff !important;
+        border-radius: 10px;
+        width: 180px;
+        padding: 0;
+        text-align: center;
+        margin-top: 7px;
+        margin-left: 10px;
+    }
+
+    .src-summit{
+        width: 100%;
+    }
+
+}
 

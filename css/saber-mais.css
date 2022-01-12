@@ -122,7 +122,7 @@ body {
     margin-left: 10px;
 }
 
-.button-feedback{
+.button-feedback-saber-mais{
     border: 2px solid #23af6c;
     background-color: #23af6c;
     color: #ffffff !important;
@@ -136,4 +136,31 @@ body {
 
 .box-button-saber-mais{
     margin-top: 55px !important;
+}
+
+@media screen and (max-width: 450px) {
+
+    .button-feedback-saber-mais{
+        border: 2px solid #23af6c;
+        background-color: #23af6c;
+        color: #ffffff !important;
+        border-radius: 10px;
+        width: 190px;
+        padding: 0;
+        text-align: center;
+        margin-top: 7px;
+        margin-left: 10px;
+    }
+
+    .button-participar{
+        border: 2px solid #23af6c;
+        color: #23af6c !important;
+        border-radius: 10px;
+        width: 190px;
+        padding: 0;
+        text-align: center;
+        margin-top: 7px;
+        margin-left: 10px;
+    }
+    
 }
